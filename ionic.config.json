@@ -1,0 +1,7 @@
+{
+  "name": "FIX Qatar 2022",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
