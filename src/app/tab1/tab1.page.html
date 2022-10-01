@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Fix Qatar 2022
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,25 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <div id="wg-api-football-games"
+     data-host="v3.football.api-sports.io"
+     data-key="fefa0178d76ef3625775679a862e9154"
+     data-date=""
+     data-league=""
+     data-season=""
+     data-theme=""
+     data-refresh="60"
+     data-show-toolbar="true"
+     data-show-errors="false"
+     data-show-logos="true"
+     data-modal-game="true"
+     data-modal-standings="true"
+     data-modal-show-logos="true">
+     {{data}}
+</div>
+<script>
+    type="module"
+    src="https://widgets.api-sports.io/2.0.3/widgets.js%22%3E"
+</script>
+      
 </ion-content>

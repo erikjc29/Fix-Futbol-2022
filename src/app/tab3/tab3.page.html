@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      <img src="https://seeklogo.com/images/F/fifa-world-cup-qatar-2022-logo-32157477CB-seeklogo.com.png" class="logo-header" >
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,28 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <!-- Login -->
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+      <!-- Icon -->
+      <div class="fadeIn first">
+        <img src="../../../assets/Qatar2022.png" id="icon" alt="User Icon" />
+        
+      </div>
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="login" placeholder="Usuario">
+        <input type="text" id="password" class="fadeIn third" name="login" placeholder="Contraseña">
+        <input type="submit" class="fadeIn fourth" value="Iniciar Sesión">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="register">No tengo Cuenta</a>
+      </div>
+  
+    </div>
+  </div>
 </ion-content>
